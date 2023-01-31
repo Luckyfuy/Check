@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-int main()
-{
+
+int main() {
     const int p = 1000000000;
     srand(time(nullptr));
     int a = rand() % p, b = rand() % p;

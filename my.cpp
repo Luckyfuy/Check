@@ -1,10 +1,9 @@
 #include <iostream>
-int main()
-{
+
+int main() {
     int a, b, sum = 0, carry = 0;
     std::cin >> a >> b;
-    do
-    {
+    do {
         sum = a ^ b;
         carry = (a & b) << 1;
         a = sum;
